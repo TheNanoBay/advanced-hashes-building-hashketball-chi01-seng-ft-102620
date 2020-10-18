@@ -3,6 +3,14 @@
 def game_hash 
   
   hasketball_hash = {
-    :home = {},
-    :away = {}
+    :home = {
+      :team_name = {}, 
+      :colors = {}, 
+      :players = {}
+    },
+    :away = {
+      :team_name = {}, 
+      :colors = {}, 
+      :players = {}
+    }
   }
